@@ -1,0 +1,13 @@
+{
+  "name": "nidhaltweets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co-body": "^6.1.0",
+    "mongodb": "^3.6.10"
+  }
+}
