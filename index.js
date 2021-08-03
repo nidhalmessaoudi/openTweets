@@ -82,7 +82,7 @@ const server = http.createServer(async function(req, res) {
 	const table = tweetsTable(await getTweets());
 	const layout = `
 	<form action="/" method="POST">
-	  <textarea name="tweet"></textarea>
+	  <textarea name="tweet" required></textarea>
 	  <input type="submit" value="Tweet"/>
 	</form>
 	<table border="1">
